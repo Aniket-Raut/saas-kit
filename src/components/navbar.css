@@ -49,12 +49,7 @@
 .navbar-menu{
     display: none;
 }
-.active{
-    display: flex;
-}
-.hidden{
-    display: none;
-}
+
 
 @media only screen and (max-device-width:768px) {
     .navbar-logo-content{
@@ -78,5 +73,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .active{
+        display: flex;
+    }
+    .hidden{
+        display: none;
     }
 }
