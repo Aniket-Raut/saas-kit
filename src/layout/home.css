@@ -125,13 +125,15 @@
 
 .ellipse-section button {
     position: absolute;
-    left: 45%;
     top: -10%;
     padding: 15px 12px;
     font-size: 16px;
     font-weight: 500;
     line-height: 19.36px;
     letter-spacing: -2%;
+    width: 126px;
+    left: 50%;
+    margin-left: -63px;
 }
 
 .brands-logo-holder {
@@ -310,5 +312,11 @@
         font-size: 32px;
         line-height: 39px;
         font-weight: 600;
+    }
+    .ellipse-section button{
+        width: 126px;
+        left: 50%;
+        margin-left: -63px;
+        top: -25%;
     }
 }
