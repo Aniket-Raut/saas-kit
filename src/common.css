@@ -33,7 +33,7 @@ footer ul{
 .responsive-container{
     display: flex;
     flex-direction: row;
-    justify-content: center !important;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 12px;
@@ -71,5 +71,8 @@ footer ul{
     }
     .pad-16-58{
         padding: 50px 40px;
+    }
+    .mobile-flex{
+        justify-content: center !important;
     }
 }
