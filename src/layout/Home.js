@@ -16,6 +16,9 @@ import window_ss from '../assets/icons/App_ss.png'
 import { useState } from "react"
 import expand from '../assets/icons/Frame.svg'
 
+import pie from '../assets/icons/emojistar.png';
+import gear from '../assets/icons/helix.png'
+
 
 export const Home=()=>{
     return(
@@ -72,8 +75,8 @@ const InfoSection=()=>{
             </div>
             <div className="card-holder">
                 <Card img={echo} title={"Integration ecosystem"} description={"Enhance your productivity by connecting with your favorite tools, keeping all your essentials in one place."}></Card>
-                <Card img={echo} title={"Integration ecosystem"} description={"Enhance your productivity by connecting with your favorite tools, keeping all your essentials in one place."}></Card>
-                <Card img={echo} title={"Integration ecosystem"} description={"Enhance your productivity by connecting with your favorite tools, keeping all your essentials in one place."}></Card>
+                <Card img={echo} title={"Goal setting and tracking"} description={"Define and track your goals, breaking down objectives into achievable tasks to keep your targets in sight."}></Card>
+                <Card img={echo} title={"Secure data encryption"} description={"With end-to-end encryption, your data is securely stored and protected from unauthorized access."}></Card>
             </div>
         </section>
     )
@@ -110,14 +113,18 @@ const FAQSection=()=>{
 
 const SubscribeSection=()=>{
     return(
-        <section className="dark-background flex-col pad-top26 bot-26 gap36">
-            <div className="section-content">
-                <h2 className="section-header">Get instant access</h2>
-                <div className="section-subheader fonts16 light-grey">Celebrate the joy of accomplishment with an app designed to track your progress and motivate your efforts.</div>
-            </div>
-            <div className="input-container">
-                <input placeholder="name@email.com" type="email"></input>
-                <button>Get aceess</button>
+        <section className="dark-background flex-col pad-top26 bot-26 overflow-hidden">
+            <div className="flex-col gap36 relative max-w540">
+                <div className="section-content max-w447">
+                    <img className="overlay pie" src={pie}></img>
+                    <img className="overlay helix" src={gear}></img>
+                    <h2 className="section-header">Get instant access</h2>
+                    <div className="section-subheader fonts16 light-grey">Celebrate the joy of accomplishment with an app designed to track your progress and motivate your efforts.</div>
+                </div>
+                <div className="input-container">
+                    <input placeholder="name@email.com" type="email"></input>
+                    <button>Get aceess</button>
+                </div>
             </div>
         </section>
     )
