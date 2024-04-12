@@ -79,6 +79,7 @@
         max-height: 250px;
         transition: 600ms;
         opacity: 1;
+        overflow: hidden;
     }
     .hidden{
         /* display: none; */
