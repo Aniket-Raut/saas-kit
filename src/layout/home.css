@@ -248,6 +248,18 @@
     font-weight: 700;
     line-height: 23.44px;
 }
+.accordion-hide{
+    max-height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 400ms;
+}
+.accordion-show{
+    max-height: 250px;
+    overflow: hidden;
+    opacity: 1;
+    transition: 400ms;
+}
 .w-auto{
     /* width: min-content;
     word-wrap:normal; */

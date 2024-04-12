@@ -141,9 +141,10 @@ const Accordion=()=>{
                 <div>How does the pricing work for teams</div>
                 <img src={expand}></img>
             </div>
-            {
+            <div className={expanded ? "accordion-show" : "accordion-hide"}>Lorem ipsum dolor sit amet consectetur. Porta velit ultricies feugiat tortor odio. Scelerisque habitant quam pharetra adipiscing id ipsum et lectus malesuada.</div>
+            {/* {
                 expanded ? <div>Lorem ipsum dolor sit amet consectetur. Porta velit ultricies feugiat tortor odio. Scelerisque habitant quam pharetra adipiscing id ipsum et lectus malesuada.</div> : null
-            }
+            } */}
         </div>
     )
 }

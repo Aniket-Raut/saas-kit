@@ -75,9 +75,17 @@
         align-items: center;
     }
     .active{
-        display: flex;
+        /* display: flex; */
+        max-height: 250px;
+        transition: 600ms;
+        opacity: 1;
     }
     .hidden{
-        display: none;
+        /* display: none; */
+        /* overflow: hidden; */
+        max-height: 0px;
+        transition: 400ms;
+        opacity: 0;
+        overflow: hidden;
     }
 }
